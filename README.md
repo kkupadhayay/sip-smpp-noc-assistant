@@ -12,7 +12,7 @@ AI-powered PCAP analyzer for SIP + SMPP traffic with rules, alerts, and Grok exp
 
 ### Quick Local Run
 ```bash
-git clone https://github.com/yourusername/sip-smpp-noc-assistant.git
+git clone https://github.com/kkupadhayay/sip-smpp-noc-assistant.git
 cd sip-smpp-noc-assistant
 cp .env.example .env
 # Add your XAI_API_KEY
