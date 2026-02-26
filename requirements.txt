@@ -1,0 +1,8 @@
+streamlit>=1.38.0
+pyshark>=0.6
+pandas>=2.0
+plotly>=5.0
+python-dotenv
+langchain
+langchain-core
+langchain-xai

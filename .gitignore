@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+noc.db
+watched/*.pcap
+watched/*.pcapng

@@ -1,23 +1,8 @@
-# SIP/SMPP NOC Assistant
+# SIP NOC Assistant (MVP)
 
-AI-powered PCAP analyzer for SIP + SMPP traffic with rules, alerts, and Grok explanations.
+## Install
 
-### Features
-- Drag & drop PCAP upload
-- Folder watcher (`watched/` folder) – auto processes new files
-- Simple rule engine (SIP failure rate, SMPP errors)
-- SQLite DB (zero-config, works on Streamlit Cloud)
-- Natural language chat with Grok
-- Dashboard with charts & alerts
-
-### Quick Local Run
-```bash
-git clone https://github.com/kkupadhayay/sip-smpp-noc-assistant.git
-cd sip-smpp-noc-assistant
-cp .env.example .env
-# Add your XAI_API_KEY
-pip install -r requirements.txt
-# Install tshark (Wireshark CLI)
-# Ubuntu: sudo apt install tshark
-# macOS: brew install wireshark
-streamlit run app.py
+1. pip install -r requirements.txt
+2. Install tshark (Wireshark CLI required)
+3. Copy .env.example to .env and add API key
+4. streamlit run app.py
